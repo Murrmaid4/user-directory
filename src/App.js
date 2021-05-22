@@ -1,7 +1,7 @@
 
 import Wrapper from './components/Wrapper';
 import Header from './components/Header'
-import Main from './pages/Main'
+import Main from './components/Main'
 
 
 function App() {
