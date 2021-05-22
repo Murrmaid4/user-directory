@@ -1,12 +1,10 @@
-import React, { useState,useEffect } from 'react'
-import Search from  './Search'
+import React, { useState,useEffect } from 'react';
+import Search from  './Search';
 import DataArea from './DataArea';
-
-// import "../styles/Main.css"
-import api from '../utils/api'
+import api from '../utils/api';
 
 function Main () {
-    const [empdata, setEmpdata] = useState([])
+    const [empdata, setEmpdata] = useState([]);
     const [sortOrder, setSortOrder] = useState(false);
     const [searchVal, setSearchVal] = useState("");
   
