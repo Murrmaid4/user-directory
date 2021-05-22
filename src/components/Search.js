@@ -5,8 +5,8 @@ function Search(props) {
         <form>
         <div className= "input-group mb-3">      
   <input 
-  value={props.searchVal}
   onChange={props.handleInputChange}
+  value={props.value}
   type="text"
    class="form-control" 
    placeholder="Search" 

@@ -39,9 +39,9 @@ function Main () {
                 <DataArea 
                 empdata={empdata}
                 handleSort={handleSort} 
-               
-                />
-            </div>
+                searchVal={searchVal}
+                 />
+                 </div>
         )
     
 }
